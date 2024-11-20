@@ -1,7 +1,28 @@
-.App {
-  text-align: center;
+:root {
+  --roboto-reg: "Roboto Regular";
+
+  --col-back: #acc8e5;
+  --col-back-active: #1588ec;
+  --col-text: #112a46;
 }
 
+.App {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* text-align: center; */
+}
+.btns_container {
+  display: flex;
+  justify-content: center;
+}
+.lists_container {
+  width: 50%;
+  margin: 20px auto;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
